@@ -39,54 +39,33 @@ This repository includes a script (`install_semi_full_packages.py`) that install
    git clone https://github.com/your-username/python-setup-installer.git
    cd python-setup-installer
 ````
-
 2. **(Optional but Recommended) Create a Virtual Environment**
-
-   ```bash
-   python -m venv env
-   env\\Scripts\\activate   # On Windows
-   source env/bin/activate  # On macOS/Linux
-   ```
-
+python -m venv env
+env\\Scripts\\activate   # On Windows
+source env/bin/activate  # On macOS/Linux
 3. **Run the Installer Script**
-
-   ```bash
-   python install_semi_full_packages.py
-   ```
-
-4. Sit back and relax 😎. The script will install all required libraries automatically.
-
----
-
-## 📂 File List
-
+python install_semi_full_packages.py
+4. **Sit back and relax 😎. The script will install all required libraries automatically.**
+📂 File List
 | File                            | Description                                  |
 | ------------------------------- | -------------------------------------------- |
 | `install_semi_full_packages.py` | Python script that installs all key packages |
 | `README.md`                     | This documentation                           |
 
----
+💡 Why Use This?
+Save time installing packages one by one
 
-## 💡 Why Use This?
+Set up a teaching or development environment in minutes
 
-* Save time installing packages one by one
-* Set up a teaching or development environment in minutes
-* Get started with automation, scraping, APIs, security, and more
-* Reuse across different systems (Windows, Linux, macOS)
+Get started with automation, scraping, APIs, security, and more
 
----
+Reuse across different systems (Windows, Linux, macOS)
 
-## 🤝 Contributing
-
+🤝 Contributing
 Pull requests and suggestions are welcome!
 If you want to contribute more package categories, feel free to fork and PR.
 
----
-
-## 📜 License
-
-This project is open-source and free to use under the [MIT License](LICENSE).
-
----
+📜 License
+This project is open-source and free to use under the MIT License.
 
 Made with ❤️ by the Python community.
