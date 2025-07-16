@@ -36,36 +36,55 @@ This repository includes a script (`install_semi_full_packages.py`) that install
 
 1. **Download or Clone this Repository**
    ```bash
-   git clone https://github.com/your-username/python-setup-installer.git
+   git clone https://github.com/itsmeabhishekrai/python-setup-installer.git
    cd python-setup-installer
-````
+   ```
+
 2. **(Optional but Recommended) Create a Virtual Environment**
-python -m venv env
-env\\Scripts\\activate   # On Windows
-source env/bin/activate  # On macOS/Linux
+   ```bash
+   python -m venv env
+   env\\Scripts\\activate   # On Windows
+   source env/bin/activate  # On macOS/Linux
+   ```
+
 3. **Run the Installer Script**
-python install_semi_full_packages.py
-4. **Sit back and relax 😎. The script will install all required libraries automatically.**
-📂 File List
-| File                            | Description                                  |
-| ------------------------------- | -------------------------------------------- |
+   ```bash
+   python install_semi_full_packages.py
+   ```
+
+4. Sit back and relax 😎. The script will install all required libraries automatically.
+
+---
+
+## 📂 File List
+
+| File | Description |
+|------|-------------|
 | `install_semi_full_packages.py` | Python script that installs all key packages |
-| `README.md`                     | This documentation                           |
+| `README.md` | This documentation |
 
-💡 Why Use This?
-Save time installing packages one by one
+---
 
-Set up a teaching or development environment in minutes
+## 💡 Why Use This?
 
-Get started with automation, scraping, APIs, security, and more
+- Save time installing packages one by one
+- Set up a teaching or development environment in minutes
+- Get started with automation, scraping, APIs, security, and more
+- Reuse across different systems (Windows, Linux, macOS)
 
-Reuse across different systems (Windows, Linux, macOS)
+---
 
-🤝 Contributing
-Pull requests and suggestions are welcome!
+## 🤝 Contributing
+
+Pull requests and suggestions are welcome!  
 If you want to contribute more package categories, feel free to fork and PR.
 
-📜 License
+---
+
+## 📜 License
+
 This project is open-source and free to use under the MIT License.
+
+---
 
 Made with ❤️ by the Python community.
